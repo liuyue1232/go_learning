@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Fri Jun  3 17:01:07 2022
+# Make data base, printed on Sat Jun  4 00:17:04 2022
 
 # Variables
 
@@ -37,17 +37,21 @@ _ = /usr/bin/make
 # makefile
 MAKEFILE_LIST := 
 # environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
 INFOPATH = /opt/homebrew/share/info:
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/b_/j3qrqch94g70p07dq6jv2hxm0000gn/T/vscode-ipc-06f101a0-280e-4bb6-a279-ea36d1068dbe.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/b_/j3qrqch94g70p07dq6jv2hxm0000gn/T/vscode-ipc-6588f4c7-0ca3-415f-a9e4-a091f673fd68.sock
 # environment
 VSCODE_CWD = /
 # environment
-PATH = /Users/liuyue/opt/anaconda3/bin:/Users/liuyue/opt/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+GOPROXY = https://goproxy.cn,direct
+# environment
+PATH = /usr/local/go/bin:/Users/liuyue/opt/anaconda3/bin:/Users/liuyue/opt/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
 # environment
 GOPATH = /Users/liuyue/go:/Users/liuyue/go_learning:/Users/liuyue/Desktop/go-stress-testing-master
 # environment
@@ -73,7 +77,7 @@ ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
 MANPATH = /opt/homebrew/share/man::
 # environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+GOMODCACHE = /Users/liuyue/go/pkg/mod
 # environment
 HOME = /Users/liuyue
 # default
@@ -171,7 +175,7 @@ _CE_CONDA =
 # environment
 LANG = C
 # variable set hash-table stats:
-# Load=78/1024=8%, Rehash=0, Collisions=2/99=2%
+# Load=80/1024=8%, Rehash=0, Collisions=3/101=3%
 
 # Pattern-specific Variable Values
 
@@ -179,9 +183,9 @@ LANG = C
 
 # Directories
 
-# . (device 16777231, inode 29831736): 5 files, no impossibilities.
+# . (device 16777231, inode 29831736): 7 files, no impossibilities.
 
-# 5 files, no impossibilities in 1 directories.
+# 7 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -253,6 +257,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Fri Jun  3 17:01:07 2022
+# Finished Make data base on Sat Jun  4 00:17:04 2022
 
  
